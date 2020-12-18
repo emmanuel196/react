@@ -12,6 +12,7 @@ import {
   email,
 } from '@/redux/selectors/selectorsKeys';
 import { Redirect } from 'react-router-dom';
+import logo from '../Tuten.png';
 
 const Home = () => {
   const dispatch = useDispatch();
@@ -83,6 +84,7 @@ const Home = () => {
       {!bookingLoading
         ? (
           <>
+            <img src={logo} alt="Logo" style={{ width: 110, height: 95 }} />
             <button
               className="logout-btn"
               type="button"

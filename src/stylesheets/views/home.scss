@@ -20,8 +20,8 @@
   margin-bottom: 2rem;
   margin-left: 60%;
   display: inline-block;
-  padding: 5px 15px;
-  border-radius: 8px;
+  padding: 0px 1px;
+  border-radius: 33px;
   background-image: linear-gradient(to right, #FFCE00 50%, #FFCE00 50%, #FE4880);
   background-size: 200%;
   background-position: 0%;
@@ -29,6 +29,8 @@
   color: #FFF;
   font-weight: 700;
   cursor: pointer;
+  width: 7rem;
+  height: 7rem;
 }
 
 .logout-btn:hover {
