@@ -1,0 +1,35 @@
+@include set-shadow-box(view-container, 40, 50,true);
+
+.view-container {
+
+  align-items: center;
+  display: flex;
+  margin: 10% auto;
+  padding: 1rem 0;
+  justify-content: center;
+
+  &__content {
+    text-align: center;
+    border-radius: .5rem;
+    width: 98%;
+    height: 95%;
+    background-color: white;
+  }
+
+}
+
+.seccion-container {
+
+  border-radius: .5rem;
+  height: 35rem !important;
+  margin: 0 auto;
+  padding-top: 2.5rem;
+  width: 60%;
+
+  &__label {
+    color: #888;
+    font-size: 28px;
+    font-weight: 500;
+  }
+
+}
